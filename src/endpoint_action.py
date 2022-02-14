@@ -1,9 +1,10 @@
 """interface.py: The assistant class for flask Web interface."""
 
-__author__      = "Luyi HUAANG <luyi.lancle.huaang@gmail.com>"
-__copyright__   = "Copyright 2020"
+__author__ = "Luyi HUAANG <luyi.lancle.huang@gmail.com>"
+__copyright__ = "Copyright 2020"
 
 from flask import Response
+
 
 class EndpointAction(object):
     def __init__(self, action):

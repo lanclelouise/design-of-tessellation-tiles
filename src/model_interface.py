@@ -1,6 +1,6 @@
 """model_interface.py: The model interface for Tessellation Drawing."""
 
-__author__ = "Luyi HUAANG <luyi.lancle.huaang@gmail.com>"
+__author__ = "Luyi HUAANG <luyi.lancle.huang@gmail.com>"
 __copyright__ = "Copyright 2020"
 
 from nnabla.utils import nnp_graph
