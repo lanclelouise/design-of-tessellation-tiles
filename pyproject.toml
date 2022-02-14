@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "tessellation-tiles"
+version = "0.1.0"
+description = ""
+authors = ["Luyi HUANG <luyi.lancle.huang@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dash = "^1.16.1"
+dash_bootstrap_components = "^0.10.6"
+numpy = "^1.19.2"
+pandas = "^1.1.2"
+flask_restful = "^0.3.8"
+dash_canvas = "^0.1.0"
+pyyaml = "^5.3.1"
+pillow = "^7.2.0"
+nnabla = "^1.11.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pip-licenses = "^3.0.0"
+scikit-image = "^0.18.1"
+ipykernel = "^6.4.1"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
