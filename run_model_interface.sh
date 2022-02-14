@@ -1,0 +1,1 @@
+poetry run python src/model_interface.py
