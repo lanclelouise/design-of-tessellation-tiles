@@ -47,7 +47,7 @@ $ poetry install
 
 ### 3.2) Place the data
 
-* Download the experiment data, then unzip it and put it in the project root folder
+* Download the [experiment data](https://drive.google.com/drive/folders/1MJTyREwWpEb0m4ZrTCNpHtFWLipFzF3j?usp=sharing), then unzip it and put it in the project root folder
 
 ```
 data                                                # the foler where keeping all the data
