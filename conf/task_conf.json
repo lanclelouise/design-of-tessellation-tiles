@@ -1,0 +1,48 @@
+{
+    "conf_case": {
+		"case_dir_path" : "data/cases/case_3"
+	},
+	"user_interface":{
+		"web": {
+			"rendering_server": {
+                "host": "0.0.0.0",
+                "port": 10000,
+                "ptcl": "http",
+                "base": "/",
+				"path": "/apps",
+				"debug": false,
+				"threaded": false
+			},
+			"render_dash_apps":[
+				{
+					"hint": "this configuration is not used here.",
+					"active": true,
+					"name": "DAAP_SAMPLE",
+					"dapp_list":[
+						{"active": true, "name": "DAPP: Canvas"}
+					]
+				}
+			],
+			"conf_homepage":{
+				"active": true,
+				"name": "Homepage",
+				"proc_conf":{
+					"name":"update_dapp_layout_sample",
+					"describe":{
+						"title": "Tessellation Generation",
+						"info_list": [
+						]
+					}
+				}
+			},
+			"update_dash_apps":[
+			],
+			"plotly_config": {
+				"scrollZoom": false,
+				"displayModeBar": true,
+				"showLink": false,
+				"displaylogo": false
+			}
+		}
+	}
+}
