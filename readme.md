@@ -14,7 +14,7 @@
 
   ```
   * Luyi Huang
-  * With best thanks to other collaborators in the following work:
+	(Also with my best thanks to other collaborators in the published paper, and advisers to my dissertation thesis.)
   ```
 
   

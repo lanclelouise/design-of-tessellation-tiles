@@ -4,6 +4,7 @@ data/
 poetry.lock
 .DS_Store
 .vscode/
+tmp/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
